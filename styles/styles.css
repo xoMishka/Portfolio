@@ -9,6 +9,7 @@
 /* Global */
 :root { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
+a { target-name: new; target-new: tab; }
 
 .nav-bar {
     display: flex;
