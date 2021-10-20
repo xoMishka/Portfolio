@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* 
+    Portfolio 1.0
+    By: Amber Jeffers
+    Date: October 20, 2021
+*/
+
+/* Global */
+:root { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+.nav-bar {
+    display: flex;
+    padding: .5em;
+    background-color: lightgreen;
+    list-style-type: none;
+}
+
+.nav-bar .spacing {
+    flex: 1;
+}
+
+.nav-bar li {
+    padding: 0x 40px;
+    display: block;
+    padding: .5em 1em;
+    background-color: yellow;
+}
+
+.nav-bar a {
+    position: sticky;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Large Screens -- 1021px+ */
+
+/* Desktop Media Rules  -- 1025px - 1200px */
+
+/* Laptop Media Rules -- 769px - 1024px */
+
+/* Tablet Media Rules -- 481px - 768px */
+
+/* Smartphone Media Rules -- 320px - 480px */
